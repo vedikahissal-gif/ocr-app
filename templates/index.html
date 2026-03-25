@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR App</title>
+</head>
+<body>
+
+<h2>Upload Image for OCR</h2>
+
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <button type="submit">Upload</button>
+</form>
+
+<h3>Extracted Text:</h3>
+<p>{{ text }}</p>
+
+</body>
+</html>

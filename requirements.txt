@@ -1,5 +1,4 @@
 flask
-opencv-python
 pandas
 openpyxl
 requests
