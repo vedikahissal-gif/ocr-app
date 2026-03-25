@@ -5,15 +5,13 @@
 </head>
 <body>
 
-<h2>Upload Image for OCR</h2>
+    <h2>Upload Image for OCR</h2>
 
-<form method="POST" enctype="multipart/form-data">
-    <input type="file" name="image" required>
-    <button type="submit">Upload</button>
-</form>
-
-<h3>Extracted Text:</h3>
-<p>{{ text }}</p>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <br><br>
+        <button type="submit">Upload & Convert</button>
+    </form>
 
 </body>
 </html>
